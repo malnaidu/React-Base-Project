@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Project</title>
+	<script> 
+		window.onload = function() {			
+			var input = document.getElementById("itemInput")
+			var resultDiv = document.getElementById("result")
+			var submitButton = document.getElementById("button")
+			submitButton.onclick = function() {
+				var value = input.value
+				resultDiv.innerHTML = "you entered: " + value
+			}
+
+		};
+	</script>
+</head>
+<body>
+	<input type="text" name="project" id="itemInput"/>
+	<button id="button"> submit </button>
+	<div id="result"> you entered:
+
+	</div>
+
+</body>
+</html>
