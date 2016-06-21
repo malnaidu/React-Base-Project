@@ -1,1 +1,3 @@
-# my-first-project
+# React Base #
+
+Docs coming soon!
